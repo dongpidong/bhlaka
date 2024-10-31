@@ -317,6 +317,15 @@
     .close.dark-mode:hover {
         color: white; /* Change hover color for dark mode */
     }
+    
+    nav a i {
+    margin-right: 5px; /* Adds space between the icon and text */
+    transition: transform 0.3s ease; /* Optional: adds a little animation on hover */
+    }
+
+    nav a:hover i {
+    transform: scale(1.1); /* Slightly enlarges the icon on hover */
+    }
 
 </style>
 </head>
@@ -332,7 +341,7 @@
             <li><a href="#popular-dramas">Popular Dramas</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li><a href="login2.html" id="open-login">Login/Register</a></li> 
+            <li><a href="login2.html" id="open-login"><i class="fas fa-user"></i></a></li> 
         </ul>
     </nav>
 </header>
